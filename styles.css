@@ -13,16 +13,28 @@
     margin: 20px 0px 0px 0px;
 }
 
-.title,
+.title {
+    padding: 2px;
+}
+
 .content {
-    padding: 2px 0px 2px 0px;
+    padding: 2px;
 }
 
 .file {
-    padding: 10px;
+    padding: 8px;
     min-width: fit-content;
     width: 60%;
     margin-top: 10px;
     border-radius: 6px;
     background-color: lavender;
+}
+
+.file:hover{
+    background-color: rgb(204, 204, 233);
+}
+
+img {
+    max-width: 380px;
+    max-height: 400px;
 }
