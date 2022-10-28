@@ -13,6 +13,7 @@
             href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
             rel="stylesheet"
         />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <title>Ankur Choudhury</title>
     </head>
     <body>
@@ -21,7 +22,10 @@
             <strong>Data Engineer \ ML Enthusiast</strong>
         </div>
         <div class="m">
-            <h3>Works</h3>
+            <h3>
+                <a id="tab-works" href="#works">Works</a> \
+                <a id="tab-projects" href="#projects">Projects</a>
+            </h3>
             <!-- files -->
 
             <div class="file">
@@ -47,6 +51,16 @@
                     <img src="img_1.png" alt="" />
                 </div>
             </div>
+            <div class="file">
+                <div class="title">WhatsApp Chat Analyser</div>
+                <div class="content">
+                    <a href="">Github link</a>
+                </div>
+            </div>
         </div>
+
+        <script>
+            $('#tab-works').css({color:'red'})
+        </script>
     </body>
 </html>
