@@ -24,7 +24,7 @@
 
 .file {
     padding: 8px;
-    width: 80%;
+    width: 480px;
     margin-top: 10px;
     border-radius: 6px;
     background-color: lavender;
@@ -37,4 +37,16 @@
 img {
     max-width: 280px;
     max-height: 380px;
+}
+
+a:link {
+    color: gray;
+}
+
+a:visited {
+    color: black;
+}
+
+audio {
+    display: none;
 }
