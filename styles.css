@@ -3,7 +3,6 @@
     text-align: center;
     padding: 0;
     font-family: "Raleway", sans-serif;
-    text-decoration: none;
 }
 
 .h {
@@ -51,6 +50,7 @@
 
 a:link {
     color: gray;
+    text-decoration: none;
 }
 
 a:visited {
@@ -67,4 +67,8 @@ audio {
 
 #sns-links {
     margin-top: 20px;
+}
+
+.qr{
+    max-width: 150px;
 }
