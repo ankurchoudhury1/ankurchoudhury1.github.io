@@ -6,6 +6,7 @@ $("#play-btn").click(() => {
     }
 });
 
-$("#tab-projects").click(() => {
-    alert("hey");
+$("#tab-works-links").click(() => {
+    $("#works").toggle();
+    $("#links").toggle();
 });
