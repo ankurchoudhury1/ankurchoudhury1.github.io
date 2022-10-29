@@ -8,10 +8,17 @@
 
 .h {
     margin: 20px 0px 0px 0px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .m {
-    margin: 20px 0px 40px 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+.f {
+    margin: 20px 0px 20px 0px;
 }
 
 .title {
@@ -24,10 +31,11 @@
 
 .file {
     padding: 8px;
-    width: 480px;
-    margin-top: 10px;
-    border-radius: 6px;
-    background-color: lavender;
+    min-width: fit-content;
+    max-width: fit-content;
+    margin-top: 12px;
+    border-radius: 4px;
+    background-color: rgb(240, 240, 252);
 }
 
 .file:hover {

@@ -5,3 +5,7 @@ $("#play-btn").click(() => {
         $("#audio-play").trigger("pause");
     }
 });
+
+$("#tab-projects").click(() => {
+    alert("hey");
+});
