@@ -43,9 +43,10 @@
     background-color: rgb(204, 204, 233);
 }
 
-img {
+.content > img {
     max-width: 280px;
     max-height: 380px;
+    box-shadow: 0 4px 8px 0 rgba(24, 0, 244, 0.2);
 }
 
 a:link {
@@ -64,6 +65,6 @@ audio {
     display: none;
 }
 
-#sns-links{
+#sns-links {
     margin-top: 20px;
 }
