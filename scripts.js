@@ -21,3 +21,10 @@ $("#tab-links").click(() => {
     $("#tab-links").css({ color: "#404040" });
     $("#tab-blogs").css({ color: "#b5b5b5" });
 });
+
+$(".f").click(() => {
+    window.scroll({
+        top: 0,
+        behavior: "smooth",
+    });
+});
