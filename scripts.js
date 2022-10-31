@@ -6,7 +6,8 @@ $("#play-btn").click(() => {
     }
 });
 
-$("#tab-works").click(() => {
+$("#tab-works").click((e) => {
+    e.preventDefault();
     $("#works").show();
     $("#links").hide();
     $("#tab-works").css({ color: "#404040" });
@@ -14,7 +15,8 @@ $("#tab-works").click(() => {
     $("#tab-blogs").css({ color: "#b5b5b5" });
 });
 
-$("#tab-links").click(() => {
+$("#tab-links").click((e) => {
+    e.preventDefault();
     $("#works").hide();
     $("#links").show();
     $("#tab-works").css({ color: "#b5b5b5" });
