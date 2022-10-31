@@ -65,6 +65,10 @@ video {
     max-height: 400px;
 }
 
+#links {
+    display: none;
+}
+
 #sns-links {
     margin-top: 20px;
 }
