@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
 }
 
 .m {
@@ -87,4 +88,33 @@ video {
 
 #tab-blogs {
     color: #b5b5b5;
+}
+
+.blogicon {
+    max-width: 30px;
+}
+
+.blogfile {
+    width: 380px;
+    border: 1px solid lavender;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.blog-title {
+    padding: 4px 0px 6px 0px;
+    background-color: lavender;
+    font-weight: 600;
+}
+
+.blog-img {
+    padding: 6px 0px 0px 0px;
+}
+
+.blog-body {
+    padding: 2px 0px 0px 0px;
+}
+
+.readmore {
+    padding: 6px 0px 2px 0px;
 }

@@ -30,3 +30,13 @@ $(".f").click(() => {
         behavior: "smooth",
     });
 });
+
+$(".content-image").mouseenter((e) => {
+    // console.log(e.target);
+    $(e.target).css({ transform: "scale(1.1)" });
+});
+
+$(".content-image").mouseout((e) => {
+    // console.log(e.target);
+    $(e.target).css({ transform: "scale(1)" });
+});
